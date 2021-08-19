@@ -58,22 +58,32 @@
   <ItemGroup>
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+    <Compile Include="Assets\Packages\GalaxyBox2\Scripts\examplescene.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
+    <Compile Include="Assets\Packages\GalaxyBox2\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\Scripts\Collectables\GemRotate.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
-    <Compile Include="Assets\Packages\GalaxyBox2\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Packages\GalaxyBox2\Scripts\examplescene.cs" />
-    <Compile Include="Assets\Scripts\GemRotate.cs" />
+    <Compile Include="Assets\Scripts\Collectables\GemGreen.cs" />
+    <Compile Include="Assets\Scripts\UI\GlobalTimer.cs" />
+    <Compile Include="Assets\Scripts\UI\GlobalScore.cs" />
+    <Compile Include="Assets\Scripts\Level\RotateSky.cs" />
+    <Compile Include="Assets\Scripts\Level\RedirectToLevel.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelDeath.cs" />
+    <Compile Include="Assets\Scripts\Level\PlatformGripper.cs" />
+    <Compile Include="Assets\Scripts\Level\FinishLevel.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Audio\General2\_CC_BY_license.txt" />
+     <None Include="Assets\Audio\General2\_actress_info.txt" />
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
@@ -87,6 +97,7 @@
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\credits.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\2020.3.0f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
