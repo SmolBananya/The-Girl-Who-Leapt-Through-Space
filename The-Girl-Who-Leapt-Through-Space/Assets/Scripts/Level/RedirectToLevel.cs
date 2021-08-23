@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class RedirectToLevel : MonoBehaviour
 {
-    public static int redirectToLevel = 3;
+    public static int redirectToLevel;
 	
 
 	void Update () {

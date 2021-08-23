@@ -4,19 +4,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SplashToMenu : MonoBehaviour
 {
-   public GameObject theLogo;
-   public GameObject presents;
+    public GameObject SBLogo;
+    public GameObject gameTitle;
 
-	void Start () {
+    void Start()
+    {
         StartCoroutine(RunSplash());
-	}
+    }
 
     IEnumerator RunSplash()
     {
         yield return new WaitForSeconds(0.5f);
-        theLogo.SetActive(true);
-        presents.SetActive(true);
-        yield return new WaitForSeconds(4.5f);
+        SBLogo.SetActive(true);
+        yield return new WaitForSeconds(5f);
+        gameTitle.SetActive(true);
+        yield return new WaitForSeconds(5f);
         SceneManager.LoadScene(1);
     }
 }
