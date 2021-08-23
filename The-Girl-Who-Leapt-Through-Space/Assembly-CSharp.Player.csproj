@@ -56,29 +56,30 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Level\PlatformGripper.cs" />
+    <Compile Include="Assets\Scripts\UI\GlobalTimer.cs" />
+    <Compile Include="Assets\Scripts\Level\RedirectToLevel.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+    <Compile Include="Assets\Scripts\UI\GlobalScore.cs" />
     <Compile Include="Assets\Packages\GalaxyBox2\Scripts\examplescene.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Packages\GalaxyBox2\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Collectables\GemGreen.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
+    <Compile Include="Assets\Scripts\Level\FinishLevel.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelDeath.cs" />
+    <Compile Include="Assets\Scripts\Level\RotateSky.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
     <Compile Include="Assets\Scripts\Collectables\GemRotate.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
-    <Compile Include="Assets\Scripts\Collectables\GemGreen.cs" />
-    <Compile Include="Assets\Scripts\UI\GlobalTimer.cs" />
-    <Compile Include="Assets\Scripts\UI\GlobalScore.cs" />
-    <Compile Include="Assets\Scripts\Level\RotateSky.cs" />
-    <Compile Include="Assets\Scripts\Level\RedirectToLevel.cs" />
-    <Compile Include="Assets\Scripts\Level\LevelDeath.cs" />
-    <Compile Include="Assets\Scripts\Level\PlatformGripper.cs" />
-    <Compile Include="Assets\Scripts\Level\FinishLevel.cs" />
+    <Compile Include="Assets\Scripts\Level\SplashToMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
