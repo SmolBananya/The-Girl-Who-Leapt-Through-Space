@@ -66,12 +66,14 @@
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Packages\GalaxyBox2\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Collectables\GemGreen.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenuFunction.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\Scripts\Level\SplashToMenu.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
     <Compile Include="Assets\Scripts\Level\FinishLevel.cs" />
+    <Compile Include="Assets\Scripts\Level\Levels\Level001.cs" />
     <Compile Include="Assets\Scripts\Level\LevelDeath.cs" />
     <Compile Include="Assets\Scripts\Level\RotateSky.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
@@ -79,10 +81,9 @@
     <Compile Include="Assets\Scripts\Collectables\GemRotate.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
-    <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
-    <Compile Include="Assets\Scripts\UI\MainMenuFunction.cs" />
-    <Compile Include="Assets\Scripts\Level\Levels\Level001.cs" />
     <Compile Include="Assets\Scripts\UI\ScrollingCredits.cs" />
+    <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseGame.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
