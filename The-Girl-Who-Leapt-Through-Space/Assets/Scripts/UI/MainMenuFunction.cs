@@ -7,6 +7,10 @@ public class MainMenuFunction : MonoBehaviour
 {
     public AudioSource buttonPress;
 
+    void Update()
+    {
+        Cursor.visible = true;
+    }
     public void PlayGame()
     {
         buttonPress.Play();
