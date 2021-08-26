@@ -10,7 +10,7 @@ public class GemGreen : MonoBehaviour
 
     void OnTriggerEnter()
     {
-        GlobalScore.currentScore += 1000;
+        GlobalScore.currentScore += 100;
         collectSound.Play();
         Destroy(gameObject);
     }

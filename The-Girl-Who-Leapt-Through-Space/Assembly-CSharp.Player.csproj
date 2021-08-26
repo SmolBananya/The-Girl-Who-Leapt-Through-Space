@@ -63,6 +63,7 @@
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\Scripts\UI\GlobalScore.cs" />
     <Compile Include="Assets\Packages\GalaxyBox2\Scripts\examplescene.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseGame.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Packages\GalaxyBox2\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Collectables\GemGreen.cs" />
@@ -83,7 +84,10 @@
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
     <Compile Include="Assets\Scripts\UI\ScrollingCredits.cs" />
     <Compile Include="Assets\Packages\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
-    <Compile Include="Assets\Scripts\UI\PauseGame.cs" />
+    <Compile Include="Assets\Scripts\Collectables\GemPink.cs" />
+    <Compile Include="Assets\Scripts\Collectables\GemPurple.cs" />
+    <Compile Include="Assets\Scripts\Level\Levels\Level002.cs" />
+    <Compile Include="Assets\Scripts\Level\Levels\Level003.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Packages\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
