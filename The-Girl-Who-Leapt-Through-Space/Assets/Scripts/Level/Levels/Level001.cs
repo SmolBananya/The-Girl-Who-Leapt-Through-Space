@@ -1,20 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class Level001 : MonoBehaviour
-{
-    public GameObject fadeIn;
-	void Start () {
-        RedirectToLevel.redirectToLevel = 3;
-        RedirectToLevel.nextLevel = 5;
-        StartCoroutine(FadeInOff());
-    }
-
-        IEnumerator FadeInOff()
-    {
-        yield return new WaitForSeconds(1);
-        fadeIn.SetActive(false);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e2400d89c66d528a36cdb20d11d9073fda223cb27a03debfc8b630cd0934424
+size 453

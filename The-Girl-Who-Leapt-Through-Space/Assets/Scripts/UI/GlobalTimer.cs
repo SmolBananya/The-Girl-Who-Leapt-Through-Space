@@ -1,34 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class GlobalTimer : MonoBehaviour
-{
-    public GameObject timeDisplay01;
-    public bool isTakingTime = false;
-    public int seconds = 150;
-    public static int extendScore;
-
-	
-
-	void Update () {
-		extendScore = seconds;
-        
-        if (isTakingTime == false)
-        {
-            StartCoroutine(SubtractSecond());
-        }
-
-
-	}
-
-    IEnumerator SubtractSecond ()
-    {
-        isTakingTime = true;
-        seconds -= 1;
-        timeDisplay01.GetComponent<Text>().text = "" + seconds;
-        yield return new WaitForSeconds(1);
-        isTakingTime = false;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d47f78fb083930db648b242a4047f3dcc1614af9c95cbd4e9adccf37b518e33e
+size 685

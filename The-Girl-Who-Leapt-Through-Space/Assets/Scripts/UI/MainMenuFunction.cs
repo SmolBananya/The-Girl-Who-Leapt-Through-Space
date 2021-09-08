@@ -1,32 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class MainMenuFunction : MonoBehaviour
-{
-    public AudioSource buttonPress;
-
-    void Update()
-    {
-        Cursor.visible = true;
-    }
-    public void PlayGame()
-    {
-        buttonPress.Play();
-        RedirectToLevel.redirectToLevel = 3;
-        SceneManager.LoadScene(2);
-    }
-
-    public void QuitGame()
-    {
-        buttonPress.Play();
-        Application.Quit();
-    }
-
-    public void PlayCreds()
-    {
-        buttonPress.Play();
-        SceneManager.LoadScene(4);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bdfc6cbf05d515ffe091733944b7bac58ca3cae878ea82aff185638f1698028
+size 975

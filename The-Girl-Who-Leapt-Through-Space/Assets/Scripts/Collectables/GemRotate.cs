@@ -1,13 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class GemRotate : MonoBehaviour
-{
-	public float rotateSpeed = 0.5f;
-
-	void Update()
-	{
-		transform.Rotate(0, rotateSpeed * Time.timeScale, 0, Space.World);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:89a67b39d4f67a8d88f7087555818d693b9deb77b98a5cb03ec1bcaf03414a3c
+size 248

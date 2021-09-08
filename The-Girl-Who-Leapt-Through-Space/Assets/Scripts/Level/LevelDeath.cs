@@ -1,27 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class LevelDeath : MonoBehaviour
-{
-    public GameObject youFell;
-    public GameObject BGM;
-    public GameObject FadeOut;
-
-    void OnTriggerEnter()
-    {
-        StartCoroutine(YouFell());
-    }
-
-    IEnumerator YouFell()
-    {
-        youFell.SetActive(true);
-        BGM.SetActive(false);
-        yield return new WaitForSeconds(2);
-        FadeOut.SetActive(true);
-        yield return new WaitForSeconds(1);
-        GlobalScore.currentScore = 0;
-        SceneManager.LoadScene(RedirectToLevel.redirectToLevel);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5181c561c392afa02025b9e7342dd50dc71a8d24c82d0504b99cf91647fe90f4
+size 648

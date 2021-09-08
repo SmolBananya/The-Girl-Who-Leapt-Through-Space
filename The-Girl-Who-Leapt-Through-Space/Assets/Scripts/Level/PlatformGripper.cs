@@ -1,19 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PlatformGripper : MonoBehaviour
-{
-    public GameObject ledge;
-    public GameObject player;
-
-    void OnTriggerEnter()
-    {
-        player.transform.parent = ledge.transform;
-    }
-
-    void OnTriggerExit()
-    {
-        player.transform.parent = null;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ab5bf3f0227917987d948b56172b88633704ca6ee965b4a8acad0f731d9f506
+size 356

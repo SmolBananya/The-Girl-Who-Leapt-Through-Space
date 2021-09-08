@@ -1,9 +1,3 @@
-Voice clips recorded and performed by Aimee Smith 
-www.aimeesmithva.com
-
-==Other Packs on OpenGameArt.org==
-Fighting Pack
-Racing Pack
-Sports Pack
-General Pack
-General Anime Pack
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ab6d37bfcadb3ebeaf2e0a478c49aa95017d4cfc1bfaa64295e91af5b9f7eea
+size 178

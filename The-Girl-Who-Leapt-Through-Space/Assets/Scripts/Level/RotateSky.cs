@@ -1,12 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class RotateSky : MonoBehaviour
-{
-    public float rotateSpeed = 1.2f;
-    void Update()
-    {
-        RenderSettings.skybox.SetFloat("_Rotation", Time.time * rotateSpeed);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:930123609cb924b7fe93c36ff12a41872f9f0aa48c21f7f4703322d9e2c54596
+size 268
